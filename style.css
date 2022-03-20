@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif; 
+}
+header{
+    padding: 15px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+    }
+    header p{
+      font-size: 50px;
+      font-weight: 200px;
+    }
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  /* coursel */
+  
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+  
+  text-align: center;
+}
+ footer{
+     text-align: center;
+     padding: 5px;
+     background-color: #ddd;
+     color: black;
+     margin-top: 15px;
+     border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+   
+ }
+.img-container{
+    text-align: center;
+    border-radius: 5px;
+}
+ 
+hr{
+    margin-top: 30px;
+    border-width: 8px;
+    border-color: rgba(28, 32, 8, 0.616);
+}
+.color_{
+    background-color: slategray;
+
+}
+h3{
+  margin-bottom: 0px;
+   margin-top: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 550;
+}
+.text span{
+  text-align: center;
+  padding: 10px 50px;
+  background-color:  #ddd;
+  border-radius: 30px;
+  font-style: italic;
+  
+}
+.text{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* adding responsiveness */
+@media all and (max-width: 469px)
+   {
+   .topnav a{
+     font-size: 10px;
+   }
+   header p{
+    font-size: 25px;
+  }
+
+}
+/* adding responsiveness to header */
+@media all and (max-width: 946px) and (min-width: 470px){
+    .respo{
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left :50%;
+    }}
+    @media all and (max-width: 691px) and (min-width: 469px){
+    header p{
+      font-size: 30px;
+    }
+    @media all and (max-width: 946px) and (min-width: 711px){
+      header p{
+        font-size: 40px;
+      }
+      @media all and (max-width: 710px) and (min-width: 692px){
+        header p{
+          font-size: 30px;
+        }
+ 
